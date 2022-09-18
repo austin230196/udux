@@ -24,6 +24,7 @@ const SidebarContainer = styled.div`
     background: url(${bg}), ${(props: any) => props.theme.primary.main};
     display: flex;
     flex-direction: column;
+    overflow-y: scroll !important;
 
     @media screen and (max-width: ${breakpoints.laptop.min + 21}px){
         display: none;
